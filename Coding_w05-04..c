@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //เรียกใช้ไลบรารี
 
 // สร้างโครงสร้างข้อมูล struct
 struct Person {
@@ -7,9 +7,9 @@ struct Person {
     float height;
     float weight;
     char grade;
-};
+}; //ปิดบล็อกคำสั่ง 
 
-int main() {
+int main() { //เปิดจุดเริ่มต้นโปรแกรม และ เปิดบล็อกคำสั่ง
     struct Person people[3];
 
     printf("=== รับข้อมูลจำนวน 3 คน ===\n");
@@ -43,5 +43,6 @@ int main() {
 
     printf("+-------+-----+-----------+-----------+------------+\n");
 
-    return 0;
-}
+    return 0;  //ส่งค่ากลับว่าไม่มีข้อผิดพลาด
+
+} //ปิดบล็อกคำสั่ง 
